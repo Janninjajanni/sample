@@ -1,0 +1,51 @@
+Microsoft Windows [Version 10.0.22631.4460]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\janva\OneDrive\Desktop\GIT>git init
+Initialized empty Git repository in C:/Users/janva/OneDrive/Desktop/GIT/.git/
+
+C:\Users\janva\OneDrive\Desktop\GIT>git add .
+
+C:\Users\janva\OneDrive\Desktop\GIT>git commit -m "initial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'janva@LAPTOP-8H3H1SLP.(none)')
+
+C:\Users\janva\OneDrive\Desktop\GIT>git config --global user.email "janvanagha@gmail.com"
+
+C:\Users\janva\OneDrive\Desktop\GIT>git add .
+
+C:\Users\janva\OneDrive\Desktop\GIT>git commit -m "initial commit"
+[main (root-commit) b2d86d5] initial commit
+ 1 file changed, 85 insertions(+)
+ create mode 100644 styles.txt
+
+C:\Users\janva\OneDrive\Desktop\GIT>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\janva\OneDrive\Desktop\GIT>git remote add origin https://github.com/Janninjajanni/sample.git
+
+C:\Users\janva\OneDrive\Desktop\GIT>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 968 bytes | 484.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Janninjajanni/sample.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\janva\OneDrive\Desktop\GIT>
